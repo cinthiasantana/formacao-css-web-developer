@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: Roboto;
+}
+
+/* ========== HEADER ==========*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    height: 8vh;
+    padding:  0 20px; 
+}
+
+.nav .menu{
+    display: flex;
+    align-items: center;
+}
+.nav .menu .logo {
+    margin-left: 40px;
+}
+
+.nav .menu img{
+    width: 100%;
+}
+
+.nav .busca {
+    display: flex;
+    align-items: center;
+}
+
+.nav .busca input {
+    border: 1px solid rgb(204, 204, 204);
+    width: 400px;
+    height: 30px;
+    outline: none;
+}
+
+.nav .busca figure {
+    margin: 0;
+    width: 40px;
+    height: 32px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav .icones{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav .icones img {
+    margin: 0 10px;
+}
+/* ========== FIM HEADER ==========*/
+
+/* ========== MAIN ==========*/
+#geral {
+    background-color: rgb(249, 249, 249, .5);
+    display: flex;
+    padding-top: 30px;
+}
+/* ========== CONTEUDO PRINCIPAL ==========*/
+#conteudo-principal {
+    margin-left: 40px;
+}
+
+#conteudo-principal .video{
+    width: 98%;
+    height: 500px;
+}
+
+#conteudo-principal .video img{
+    width: 100%;
+    height: 100%;
+}
+
+#conteudo-principal .titulo h2{
+    font-size: 20px;
+}
+
+#conteudo-principal .informacoes {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteudo-principal .perfil {
+    display: flex;
+}
+
+#conteudo-principal .perfil .dados {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo-principal .perfil .dados p{
+    font-size: 14px;
+    margin: 0;
+}
+
+#conteudo-principal .inscrever button {
+    height: 40px;
+    border-radius: 3px;
+    padding: 0 45px;
+    background-color: #CC0000;
+    border: none;
+}
+
+#conteudo-principal button a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#conteudo-principal .acoes,
+#conteudo-principal .inscrever {
+    display: flex;
+    align-items: center;
+}
+
+#conteudo-principal .acoes img, 
+#conteudo-principal .acoes p {
+    margin: 0 5px 0 10px;
+}
+
+#conteudo-principal .acoes p {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+#conteudo-principal  .detalhes {
+    display: flex;
+    margin-top: 10px;
+}
+
+#conteudo-principal  .detalhes p{
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+#conteudo-principal .descricao{
+    width: 55%;
+}
+#conteudo-principal .descricao p{
+    font-size: 14px;
+    color: #515151;
+}
+
+/* ========== LISTAGEM DE VIDEOS ==========*/
+#listagem-videos{
+    width: 50%;
+}
+#listagem-videos .video{
+    display: flex;
+    align-items: stretch;
+    align-content: space-between;
+    margin-bottom: 10px;
+}
+
+#listagem-videos .video .informacoes {
+    margin: 0;
+}
+
+#listagem-videos .video .capa {
+    margin-right: 14px;
+}
+
+#listagem-videos .video .capa img{
+    background-size: cover;
+    object-fit: cover;
+}
+
+#listagem-videos .video .informacoes .titulo p{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#listagem-videos .video .informacoes .perfil p{
+    font-size: 12px;
+    color: #515151;
+    margin: 6px 0;
+}
+
+#listagem-videos .video .informacoes .detalhes p{
+    font-size: 12px;
+    color: #515151;
+    margin: 0;
+}
