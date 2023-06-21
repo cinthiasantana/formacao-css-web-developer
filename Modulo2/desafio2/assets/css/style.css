@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: Roboto;
+}
+
+/* ========== HEADER ==========*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    height: 8vh;
+    padding:  0 20px; 
+}
+
+.nav .menu{
+    display: flex;
+    align-items: center;
+}
+.nav .menu .logo {
+    margin-left: 40px;
+}
+
+.nav .menu img{
+    width: 100%;
+}
+
+.nav .busca {
+    display: flex;
+    align-items: center;
+}
+
+.nav .busca input {
+    border: 1px solid rgb(204, 204, 204);
+    width: 400px;
+    height: 30px;
+    outline: none;
+}
+
+.nav .busca figure {
+    margin: 0;
+    width: 40px;
+    height: 32px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav .icones{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav .icones img {
+    margin: 0 10px;
+}
+/* ========== FIM HEADER ==========*/
+
+/* ========== MAIN ==========*/
+#geral {
+    
+    display: flex;
+    
+}
+
+/* ========== BARRA LATERAL ==========*/
+#side-bar {
+    width: 20%;
+    padding-right: 20px;
+}
+
+#side-bar .item {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    margin-left: -20px;
+    margin-bottom: -40px;
+}
+
+#side-bar .item p {
+    margin-left: -30px;
+}
+
+/* ========== CONTEUDO PRINCIPAL ==========*/
+#conteudo-principal {
+    background-color: rgb(249, 249, 249, .8);
+    padding: 50px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#conteudo-principal .informacoes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+#conteudo-principal .informacoes .detalhes {
+    margin-left: 10px;
+    width: 60%;
+}
+
+#conteudo-principal .informacoes .detalhes .titulo p {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+#conteudo-principal .informacoes .detalhes .dados p {
+    font-size: 12px;
+    color: #515151;
+    margin: 0;
+}
