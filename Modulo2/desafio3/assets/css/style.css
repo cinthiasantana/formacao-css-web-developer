@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    color: #23272A;
+}
+
+/* HEADER*/
+
+#header img {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+#header .detalhes {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#header .detalhes h1 {
+    font-family: 'Luckiest Guy';
+    color: #fff;
+    font-weight: 400;
+    font-size: 56px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#header .detalhes p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+#header .detalhes .cta .btn-baixar {
+    border: none;
+    border-radius: 30px;
+    padding: 16px 40px;
+    margin-right: 10px;
+}
+
+#header .detalhes .cta .btn-baixar a {
+    text-decoration: none;
+    color: #23272A;
+    font-size: 16px;
+}
+
+#header .detalhes .cta .btn-abrir {
+    border: none;
+    border-radius: 30px;
+    padding: 16px 30px;
+    background-color: #23272A;
+}
+
+#header .detalhes .cta .btn-abrir a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    #header img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    #header .detalhes {
+        width: 90%;
+        margin: 0 auto;
+        text-align: start;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #header .detalhes h1 {
+        width: 100%;
+        text-align: start;
+        font-size: 32px;
+    }
+
+    #header .detalhes .cta {
+        width: 100%;
+    }
+
+    #header .detalhes .cta .btn-baixar {
+        width: 100%;
+        padding: 12px 0;
+        margin-right:0;
+    }
+
+    #header .detalhes .cta .btn-baixar a {
+        text-decoration: none;
+        color: #23272A;
+        font-size: 16px;
+    }
+
+    #header .detalhes .cta .btn-abrir {
+        width: 100%;
+        margin-top: 20px;
+        padding: 12px 0;
+    }
+}
+
+/* MAIN */
+#main .apresentacao-1,
+#main .apresentacao-3 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+    height: 100%;
+}
+
+#main .apresentacao-2 {
+    background-color: #F6F6F6;
+    padding: 60px 130px;
+    display: flex;
+}
+
+.apresentacao-2 .descricao {
+    order: -1;
+}
+
+#main .apresentacao-4 {
+    padding: 60px 200px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+#main .apresentacao-1 h1,
+#main .apresentacao-2 h1,
+#main .apresentacao-3 h1,
+#main .apresentacao-4 h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#main .apresentacao-4 h1 {
+    font-family: 'Luckiest Guy';
+}
+
+#main .apresentacao-1 p,
+#main .apresentacao-2 p,
+#main .apresentacao-3 p,
+#main .apresentacao-4 p {
+    font-size: 16px;
+}
+
+#main .apresentacao-4 p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    #main .apresentacao-1,
+    #main .apresentacao-3 {
+        width: 90%;
+        flex-wrap: wrap;
+        padding: 40px 0;
+    }
+    
+    #main .apresentacao-1 .imagem img,
+    #main .apresentacao-3 .imagem img{
+        width: 100%;
+    }
+
+    #main .apresentacao-2 .imagem img,
+    #main .apresentacao-4 .imagem img{
+        width: 100%;
+    }
+
+    #main .apresentacao-2 {
+        background-color: #F6F6F6;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+    }
+
+    .apresentacao-2 .descricao {
+        order: 1;
+    }
+    #main .apresentacao-4 {
+        padding: 40px 20px;
+        text-align: center;
+        background-color: #F6F6F6;
+    }
+    
+    #main .apresentacao-1 h1,
+    #main .apresentacao-2 h1,
+    #main .apresentacao-3 h1 {
+        font-size: 24px;
+    }
+
+    #main .apresentacao-4 h1 {
+        font-size: 32px;
+        text-align: start;
+    }
+    
+    #main .apresentacao-4 p {
+        text-align: start;
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+footer {
+    padding: 40px 0;
+    background-color: #23272A;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 10px 0;
+    }
+
+    footer img{
+        height: 40px;
+    }
+}
